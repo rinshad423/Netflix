@@ -1,0 +1,38 @@
+.bg{
+    background-color: black;
+}
+.background{
+    background-image: url(images/IN-en-20230724-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.black{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
+.hr{
+    background-color: grey;
+    width: 100%;
+    height: 4px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.link-color a{
+    color: white;
+}
+.qc a{
+    color: white;
+}
